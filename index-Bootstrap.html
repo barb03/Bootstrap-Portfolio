@@ -3,6 +3,7 @@
     <head>
         <!--This is Barb's Homework 1-->
         <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -11,7 +12,7 @@
         <!--my custom stylesheet-->
         <link rel="stylesheet" type="text/css" href="assets/css/style-Bootstrap.css">
 
-        <title>Barbara Wright's Portfolio</title>       
+        <title>Barbara Wright's Portfolio</title>     
        
     </head>
 
@@ -23,47 +24,66 @@
                 <div class="col-md-6">
                     <div class="box">Barbara Wright</div> 
                 </div>
-                <div class="col-md-6">
-                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only"></span></a>
-                    <a class="nav-link" href="contact.html">Contact<span class="sr-only"></span></a>   
-                    <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a> 
-                </div>
+                <nav class="navbar navbar-expand-sm bg-light">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index-Bootstrap.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact-Bootstrap.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="portfolio-Bootstrap.html">Portfolio</a>
+                      </li>
+                    </ul>                  
+                  </nav>
             </div>              
             <hr width="100%">
         </header>
 
-        <!-- My Bio -->        
+        <!-- My Bio -->    
+        
+        <div class="container">
 
-        <div class="container">            
-            <section id="bioInfo">  
+        <div class="row">
+            <div class="col-md-12">
                 <h2>About Me</h2>
                 <hr width="100%"> 
-
+            </div>
+        </div>
                 <!--Barb's Picture-->
-                
-                <img id="bioImage" src="barb.jpg" alt="Barb">
-                
-                <!-- About me section -->
 
-                <p> 
-                    I just finished my Bachelor's in Computer Science from Park University.  I really like the web programming classes
-                    so that is why I wanted to go to the Coding Boot Camp.  I am hoping to start a career in the web programming area when
-                    I finish Coding Boot Camp.   
-                </p>
-                <p>
-                    I have three rescue cats.  Vader is the oldest and is all black.  Leia was a feral cat that just did not like being outside, 
-                    she will not even go near any of the doors.  Luke is the youngest but the biggest, he weighs 18 pounds and has hopefully 
-                    stopped growing.  I like to tell people that I have the Skywalker family.
-                </p>
-                <p>
-                    I have a few hobbies, like making jewelry and painting but my favorite hobby is racing a vintage race car.  She's a 1964 
-                    Formula Vee and this year was the 55th anniversary of the Formula Vee.  She weighs 840 pounds and the top speed is 125mph.  
-                    We have a big field of Vees that has been growing so that makes it a lot of fun to race. If 
-                    we are all at the race there are 40 of us.
-                </p>
-                                  
-            </section>  
-        </div>  
+            <div class="row">
+                <div class="col-md-12">
+                    <img id="bioImage" src="barb.jpg" alt="Barb"> 
+                                       
+                    <!-- About me section -->
+                    <p> 
+                        I just finished my Bachelor's in Computer Science from Park University.  I really like the web programming classes
+                        so that is why I wanted to go to the Coding Boot Camp.  I am hoping to start a career in the web programming area when
+                        I finish Coding Boot Camp.   
+                    </p>
+                    <p>
+                        I have three rescue cats.  Vader is the oldest and is all black.  Leia was a feral cat that just did not like being outside, 
+                        she will not even go near any of the doors.  Luke is the youngest but the biggest, he weighs 18 pounds and has hopefully 
+                        stopped growing.  I like to tell people that I have the Skywalker family.
+                    </p>
+                    <p>
+                        I have a few hobbies, like making jewelry and painting but my favorite hobby is racing a vintage race car.  She's a 1964 
+                        Formula Vee and this year was the 55th anniversary of the Formula Vee.  She weighs 840 pounds and the top speed is 125mph.  
+                        We have a big field of Vees that has been growing so that makes it a lot of fun to race. If 
+                        we are all at the race there are 40 of us.
+                    </p>
+                </div>
+            </div>
+        </div>
+           
+                
+                
+                
+                
         
         <!--Footer-->
         <footer class="footer">           

@@ -36,7 +36,7 @@ header{
 .nav-link {       
     float: right;       
     margin-right: 15px;    
-    font-size: 15px;
+    font-size: 25px;
 }
 .nav-link:hover{
     color: red;
@@ -45,7 +45,7 @@ header{
 .box{
     background: #4aaaa5;  
     color: white;  
-    max-width: 250px;  
+    max-width: 100%;  
     margin-left: 100px;  
     padding: 10px;
     float: left;
@@ -56,17 +56,17 @@ header{
     height: 100%;
 }
 
-#bioInfo,
+/* #bioInfo, */
 #bioImage {
   float: left;
   background-color: white;
   padding: 10px;
 }
 
-#bioInfo {
+/* #bioInfo {
   width: 70%;  
   margin: 25px auto 100px 250px;
-}
+} */
 
 #bioImage {
   width: 200px;
@@ -85,6 +85,10 @@ footer {
   }
   footer p{
       color: white;
+  }
+
+  .col-md-12{
+      background-color: #fff;
   }
 
 /*

@@ -80,8 +80,11 @@ footer {
     margin-top: 20px;   
     text-align: center;
     font-size: smaller;
-    background: grey;
+    background: grey;    
     border-top: 8px solid #4aaaa5;
+  }
+  footer p{
+      color: white;
   }
 
 /*

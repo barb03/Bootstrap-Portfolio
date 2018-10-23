@@ -2,41 +2,65 @@
 <html lang="en-us">
     <head>
         <!--This is Barb's Homework 1-->
-        <meta charset="UTF-8">  
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
 
         <!--my custom stylesheet-->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+        <link rel="stylesheet" type="text/css" href="assets/css/style-Bootstrap.css">
+        
         <title>Barbara Wright's Portfolio</title>       
        
     </head>
 
     <body>        
         <header>
-            <div class="box">Barbara Wright</div>              
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="box">Barbara Wright</div> 
+                </div>
+                <nav class="navbar navbar-expand-sm bg-light">
 
-                <!--Nav bar-->
-
-            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only"></span></a>
-            <a class="nav-link" href="contact.html">Contact<span class="sr-only"></span></a>   
-            <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>            
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index-Bootstrap.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact-Bootstrap.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="portfolio-Bootstrap.html">Portfolio</a>
+                      </li>
+                    </ul>                  
+                  </nav>
+            </div>              
             <hr width="100%">
         </header>
 
         <!-- Contact From -->
         
         <div class="container">
-            <section id="contactInfo">  
-                <h2>Contact</h2>
-                <hr width="100%"> 
-                <form>
-                    <label>Name</label><br><input type="text" id="name" placeholder="John Doe"><br>
-                    <label>Email</label><br><input type="text" id="email" placeholder="example.gmail.com"><br>
-                    <label>Message</label><br><textarea id="customMessage" placeholder="Put message here"></textarea><br>
-                    <input type="button" id="btnSubmit" class="mybutton" value="Submit" onclick="">
-                </form>       
-                                  
-            </section>  
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Contact</h2>
+                    <hr width="100%"> 
+                </div>
+            </div>
+            <div class="row">  
+                <div class="col-md-12">
+                    <form>
+                        <label>Name</label><br><input type="text" id="name" placeholder="John Doe"><br>
+                        <label>Email</label><br><input type="text" id="email" placeholder="example.gmail.com"><br>
+                        <label>Message</label><br><textarea id="customMessage" placeholder="Put message here"></textarea><br>
+                        <input type="button" id="btnSubmit" class="mybutton" value="Submit" onclick="">
+                    </form>       
+                </div>                
+            </div>  
         </div>  
         
         <!--Footer-->

@@ -78,12 +78,13 @@ footer {
     padding: 10px;
     clear: both;
     margin-top: 20px;   
-    text-align: center;
+    text-align: center;    
     font-size: smaller;
     background: grey;    
     border-top: 8px solid #4aaaa5;
   }
-  footer p{
+  
+  footer code{
       color: white;
   }
 
@@ -149,12 +150,13 @@ Portfolio Page
 
 #portfo{
     color: #4aaaa5;
-    width: 70%;      
-    margin: 25px auto 100px 250px;
+    width: 55%;      
+    margin: 25px auto 100px 150px;
     background-color: white;
     padding: 10px;   
     overflow:visible;    
     overflow-y: hidden; 
+    overflow-x: hidden; 
 }
 
 img{

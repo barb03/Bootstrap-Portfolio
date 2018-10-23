@@ -2,10 +2,15 @@
 <html lang="en-us">
     <head>
         <!--This is Barb's Homework 1-->
-        <meta charset="UTF-8">  
-        
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            
         <!--my custom stylesheet-->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style-Bootstrap.css">
 
         <title>Barbara Wright's Portfolio</title>       
        
@@ -13,69 +18,87 @@
 
     <body>        
         <header>
-            <div class="box">Barbara Wright</div>              
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="box">Barbara Wright</div> 
+                </div>
+                <nav class="navbar navbar-expand-sm bg-light">
 
-                <!--Nav bar-->
-
-            
-            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only"></span></a>
-            <a class="nav-link" href="contact.html">Contact<span class="sr-only"></span></a>   
-            <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>         
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index-Bootstrap.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact-Bootstrap.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="portfolio-Bootstrap.html">Portfolio</a>
+                      </li>
+                    </ul>                  
+                </nav>
+            </div>              
             <hr width="100%">
         </header>
 
         <!-- Portfolio -->
 
-        <div class="container">
-            <section id="portfo">  
-                <h2>Portfolio</h2>
-                <hr width="100%"> 
-
-                <!-- Hangman pic -->
-
-                <div class="parent-div">
-                    <img id="hangman" src="assets/images/hangman.png" alt="Hangman">
-                    <div class="childBox"> 
-                        <p>Hangman</p>                    
-                    </div>
+        <div class="container" id="portfo">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Portfolio</h2>
+                    <hr width="100%"> 
                 </div>
+            </div>    
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Hangman pic -->
 
-                <!-- RPG Game pic -->
-
-                <div class="parent-div">
-                    <img id="rpg" src="assets/images/rpg.jpg" alt="rpg">
-                    <div class="childBox"> 
-                        <p>RPG Game</p>                    
+                    <div class="parent-div">
+                        <img id="hangman" src="assets/images/hangman.png" alt="Hangman">
+                            <div class="childBox"> 
+                                <p>Hangman</p>                    
+                            </div>
                     </div>
+        
+                        <!-- RPG Game pic -->
+        
+                    <div class="parent-div">
+                        <img id="rpg" src="assets/images/rpg.jpg" alt="rpg">
+                            <div class="childBox"> 
+                                <p>RPG Game</p>                    
+                            </div>
+                    </div>
+        
+                        <!-- Trivia pic -->
+        
+                    <div class="parent-div">
+                        <img id="trivia" src="assets/images/trivia.jpg" alt="trivia">
+                            <div class="childBox"> 
+                                <p>Trivia Game</p>                    
+                            </div>
+                    </div>
+        
+                        <!-- Widget pic -->
+        
+                    <div class="parent-div">
+                        <img id="widget" src="assets/images/widget.jpg" alt="widget">
+                            <div class="childBox"> 
+                                <p>Rutgers Info Widget</p>                    
+                            </div>
+                    </div>
+    
+                    <!-- Rock Paper Scissors pic -->
+    
+                    <div class="parent-div">
+                    <img id="rpsGame" src="assets/images/rockPaperScissors.png" alt="RPSgame">   
+                        <div class="childBox"> 
+                            <p>Paper Rock Scissors</p>                    
+                        </div>
+                    </div>            
                 </div>
-
-                <!-- Trivia pic -->
-
-                <div class="parent-div">
-                <img id="trivia" src="assets/images/trivia.jpg" alt="trivia">
-                    <div class="childBox"> 
-                        <p>Trivia Game</p>                    
-                    </div>
-                </div>
-
-                <!-- Widget pic -->
-
-                <div class="parent-div">
-                <img id="widget" src="assets/images/widget.jpg" alt="widget">
-                    <div class="childBox"> 
-                        <p>Rutgers Info Widget</p>                    
-                    </div>
-                </div>
-
-                <!-- Rock Paper Scissors pic -->
-
-                <div class="parent-div">
-                <img id="rpsGame" src="assets/images/rockPaperScissors.png" alt="RPSgame">   
-                    <div class="childBox"> 
-                        <p>Paper Rock Scissors</p>                    
-                    </div>
-                </div>            
-            </section>  
+            </div>              
+            
         </div>  
         
         <!--Footer-->
